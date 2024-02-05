@@ -1,6 +1,6 @@
 # trigrams
 
-requires CMake 3.16 (minimum)
+requires C++20 and CMake 3.16 (minimum)
 
 https://cmake.org/
 
