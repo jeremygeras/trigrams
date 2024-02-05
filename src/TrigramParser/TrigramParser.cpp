@@ -20,6 +20,8 @@ bool iequals(std::string_view lhs, std::string_view rhs, std::string::size_type 
 
 int TrigramParser::getTrigrams(const std::string& firstString, const std::string& secondString, std::vector<const char*>& trigramPtrs)
 {
+   trigramPtrs.clear();
+   
    if (!isInputValid(firstString) || !isInputValid(secondString))
    {
       return -1;
